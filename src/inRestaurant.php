@@ -110,10 +110,10 @@ if (!isset($_SESSION['email'])) {
     </button>
     <button type="button" class="btn btn-warning  btn-lg"
             style="width: 30%;height: 70px;margin-top: 15px;margin-right: 30px">American-Piatza
-    </button>
+    </button><a href="sweet_dish.php">
     <button type="button" class="btn btn-success  btn-lg"
             style="width: 30%;height: 70px;margin-top: 15px;margin-right: 30px">Sweet Dish
-    </button>
+    </button></a>
     <button type="button" class="btn btn-info  btn-lg"
             style="width: 30%;height: 70px;margin-top: 15px;margin-right: 30px;color: black"><b>Salads</b></button>
     <button type="button" class="btn btn-danger  btn-lg"

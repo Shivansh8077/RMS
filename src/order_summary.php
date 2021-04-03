@@ -53,7 +53,7 @@ function a()
     <table class="table table-bordered table-hover table-striped table-responsive table-dark"
            style="width: 25%;margin: auto">
         <?php echo "<div style='text-align: center'> <span  style='text-align: center;' class='purple_colour'>" . $user_name . " 's Order </span></div>" ?>
-            <thead></thead>
+
             <th>Dish Name</th>
             <th>Price For 1 item</th>
             <th>Quantity</th>

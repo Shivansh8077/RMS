@@ -20,7 +20,7 @@ if (!isset($_SESSION['email'])) {
     $select_query_result = mysqli_query($con, $select_query) or die(mysqli_error($con));
     $count_of_rows = mysqli_num_rows($select_query_result);
     if ($count_of_rows == 0) {
-        echo "<div style='margin-top: 200px;text-align: center' class='purple_colour'>Add items to the cart first!</div>";
+        echo "<div style='margin-top: 200px;text-align: center' class='purple_colour'>Add items to the cart first!<br> Your cart is empty... :(</div>";
     } else {
         ?>
         <?php echo "<div style='text-align: center;border-bottom: 2px solid black'><span  style='text-align: center;' class='purple_colour purple_button'>" . $user_name . " 's Order </span></div>" ?>
